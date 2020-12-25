@@ -1,0 +1,27 @@
+{
+  "name": "bhagavad-gita-api",
+  "version": "1.0.0",
+  "description": "A lightweight Node-based Bhagavad Gita API server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedicscriptures/bhagavad-gita-api.git"
+  },
+  "keywords": ["gita-api","bhagavad-gita-api","bhagavad-gita","karma-yoga","api","hinduism","hindu","sanatadharma","vedic","krishna","iskcon","api-rest"],
+  "author": "Pt. Prashant Tripathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vedicscriptures/bhagavad-gita-api/issues"
+  },
+  "homepage": "https://github.com/vedicscriptures/bhagavad-gita-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+	},
+  "engines": {
+    "node": "^12.x"
+  }
+}
