@@ -1,15 +1,14 @@
-// import other routes
-const gitaRoutes = require('./gitaroutes');
-const appRouter = (app, fs) => {
+// import routes of GITA
+const bhagavadgitaRoutes = require('./bhagavadgitaroutes');
+const Routes = (app, fs) => {
 
-    // default route
+    // default route to vedicscripters.github.io
     app.get('/', (req, res) => {
-		res.writeHead(200, {'Content-Type': 'text/html; charset=utf-8'})
-		fs.createReadStream('./docs/README.html').pipe(res)
-    });
+	res.redirect('https://vedicscriptures.github.io/');
+	});
 
     // gita routes
-    gitaRoutes(app, fs);
+    bhagavadgitaRoutes(app, fs);
 };
 
-module.exports = appRouter;
+module.exports = Routes;
