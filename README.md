@@ -15,8 +15,8 @@
 	<i>Loved the tool? Please consider <a href="https://paypal.me/ptprashanttripathi/100">donating</a> 💸 to help it improve!</i><br/><br/>
 	<a href="https://paypal.me/PtPrashantTripathi"><img height='23' src="https://img.shields.io/badge/support-PayPal-blue?logo=PayPal&style=flat-square&label=Donate" alt="Donate"/></a>
 	<a href='https://ko-fi.com/ptprashanttripathi' target='_blank'><img height='23' width="100" src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' alt='Buy Coffee for ptprashanttripathi' /></a>
-	<a href="https://www.buymeacoffee.com/ptprashant09" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="23" width="100" style="border-radius:1px" /></a>
-	<a href="https://ptprashanttripathi.github.io/linkpe?pa=pt1998@ybl&pn=Pt.+Prashant+Tripati" target="_blank"><img src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/linkpebadge.svg" alt="Support Via UPI" height="23" style="border-radius:1px" /></a>
+	<a href="https://www.buymeacoffee.com/ptprashanttripathi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="23" width="100" style="border-radius:1px" /></a>
+	<a href="https://ptprashanttripathi.github.io/linkpe?pa=pt1998@ybl&pn=Pt.+Prashant+Tripathi" target="_blank"><img src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/linkpebadge.svg" alt="Support Via UPI" height="23" style="border-radius:1px" /></a>
 </p>
 
 ## About
@@ -25,17 +25,13 @@
 
 ## 🚀 How to use
 
-<details>
-	<summary><b>1. Homepage</b></summary><br/>
+### 1. Homepage
 
 > landing page
 
 - **`URL`**  : [`https://vedicscripturesapi.herokuapp.com/`](https://vedicscripturesapi.herokuapp.com/)
 
-</details>
-
-<details>
-	<summary><b>2. GET [/gita]</b></summary><br/>
+### 2. GET [/gita]
 
 > GET Random gita Slok(Verse)
 
@@ -143,9 +139,7 @@
 }
 ```
 
-</details>
-<details>
-	<summary><b>3. GET [/gita/chapters]</b></summary><br/> 
+### 3. GET [/gita/chapters] 
 
 > GET All Chapters details of Shreemad Bhagavad Gita
 
@@ -188,9 +182,8 @@
   }
 ]
 ```
-</details>
-<details>
-	<summary><b>4. GET [/gita/:ch]</b></summary><br/>
+
+### 4. GET [/gita/:ch]
 
 > GET Particular Chapters details of Shreemad Bhagavad Gita
 
@@ -217,9 +210,8 @@
   }
 }
 ```
-</details>
-<details>
-	<summary><b>5. GET [/gita/:ch/:sl]</b></summary><br/>
+
+### 5. GET [/gita/:ch/:sl]
 
 > GET JSON of Slok from Particuler slok & chapter of Shreemad Bhagavad Gita
 
@@ -329,9 +321,8 @@
   }
 }
 ```
-</details>
-<details>
-	<summary><b>6. GET [/gita.svg]</b></summary><br/>
+
+### 6. GET [/gita.svg]
 
 > GET SVG of Random Slok of Shreemad Bhagavad Gita
 
@@ -341,9 +332,7 @@
 
 <p align="center"><img alt="Bhagavad Gita API" src="https://vedicscripturesapi.herokuapp.com/gita.svg" width="500vw"/></p>
 
-</details>
-<details>
-	<summary><b>7. GET [/gita.svg?ch={chapter_num}]</b></summary><br/>
+### 7. GET [/gita.svg?ch={chapter_num}]
 
 > GET SVG of Randome Slok from Particuler chapter of Shreemad Bhagavad Gita
 
@@ -355,9 +344,7 @@
 
 <p align="center"><img alt="Bhagavad Gita API" src="https://vedicscripturesapi.herokuapp.com/gita.svg?ch=1" width="500vw"/></p>
 
-</details>
-<details>
-	<summary><b>8. GET [/gita.svg?ch={chapter_num}&sl={slok_num}]</b></summary><br/>
+### 8. GET [/gita.svg?ch={chapter_num}&sl={slok_num}]
 
 > GET SVG of Slok from Particuler slok & chapter of Shreemad Bhagavad Gita
 
@@ -370,7 +357,7 @@
 
 <p align="center"><img alt="Bhagavad Gita API" src="https://vedicscripturesapi.herokuapp.com/gita.svg?ch=1&sl=1" width="500vw"/></p>
 
-</details>
+
 
 ## 📚 Source Book
 

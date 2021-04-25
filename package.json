@@ -35,7 +35,9 @@
         "body-parser": "^1.18.3",
         "dotenv": "^8.2.0",
         "express": "^4.16.4",
-        "mongoose": "^5.10.18"
+        "express-rate-limit": "^5.2.6",
+        "mongoose": "^5.12.5",
+        "redis": "^3.1.2"
     },
     "engines": {
         "node": "^12.x"

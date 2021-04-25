@@ -3,15 +3,17 @@ const bodyParser = require('body-parser');
 const app = express();
 const mongoose = require('mongoose');
 const fs = require('fs');
+const reqLimit = require('./models/reqLimiter');
 require('dotenv').config();
 
 app.all('*', function (req, res, next) {
     res.set('Access-Control-Allow-Origin', '*');
     next();
 });
+app.set('trust proxy', 1);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
+app.use(reqLimit);
 mongoose.connect(process.env.MONGOURI, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
