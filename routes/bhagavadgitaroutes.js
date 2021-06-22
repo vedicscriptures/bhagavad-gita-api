@@ -15,7 +15,7 @@ const bhagavadgitaRoutes = (app, fs) => {
     app.get('/slok',auth, async (req, res) => {
 		await bgslok.findById(gitaslokid(), (err, data) => {
             if (!data) {
-				res.status(500).json({ error: 'Internal Server Error'});
+			return	res.status(500).json({ error: 'Internal Server Error'});
             }
             res.json(data);
         });
@@ -28,7 +28,7 @@ const bhagavadgitaRoutes = (app, fs) => {
 		if(!isNaN(chapter) && !isNaN(slok)){
 			await bgslok.findById(`BG${chapter}.${slok}`, (err, data) => {
 				if (!data) {
-					res.status(400).json({ error: 'This Chapter or Slok does not exist' });
+					return res.status(400).json({ error: 'This Chapter or Slok does not exist' });
 				}
 				res.json(data);
 			});
@@ -42,7 +42,7 @@ const bhagavadgitaRoutes = (app, fs) => {
     app.get('/chapters',auth, async (req, res) => {
     	await bgchap.find({},{ '_id': 0,}, (err, data)=> {
             if (!data) {
-				res.status(500).json({ error: 'Internal Server Error'});
+				return res.status(500).json({ error: 'Internal Server Error'});
             }
             res.json(data);
         }).sort({'chapter_number': 1});
@@ -54,7 +54,7 @@ const bhagavadgitaRoutes = (app, fs) => {
 		if(!isNaN(chapter)){
 			await bgchap.find({chapter_number: chapter},{ '_id': 0,},(err, data) => {
 				if (!data) {
-					res.status(400).json({ error: 'This Chapter does not exist Try only 1 to 18' });
+					return res.status(400).json({ error: 'This Chapter does not exist Try only 1 to 18' });
 				}
 				res.json(data[0]);
 			});
@@ -71,7 +71,7 @@ const bhagavadgitaRoutes = (app, fs) => {
 		if((typeof chapter === 'undefined' && typeof slok  === 'undefined') || (!isNaN(chapter) && typeof slok  === 'undefined') || (!isNaN(chapter) && !isNaN(slok))){
 			await bgslok.findById(gitaslokid(chapter,slok), (err, data) => {
 				if (!data) {
-					res.status(400).json({ error: 'Chapter or Slok does not exist' });
+					return res.status(400).json({ error: 'Chapter or Slok does not exist' });
 				}
 				res.set({
 					'Content-Type':'image/svg+xml',
