@@ -23,6 +23,12 @@
 
 > Bhagavad-Gita-API is A lightweight Node.js based Bhagavad Gita API server 
 
+## :lock: API key
+
+> A new Authentication Feature :bulb: introduced in our Bhagavad Gita API. [Get your license now for free](https://docs.bhagavadgitaapi.in/pricing).
+
+[![https://youtu.be/UmT9dUUCqm8](https://user-images.githubusercontent.com/26687933/125326463-b69be380-e35f-11eb-9cf9-f8527b7d2bf3.png)](https://youtu.be/UmT9dUUCqm8)
+
 ## 🚀 Api Reference
 
 1. GET [/slok](https://docs.bhagavadgitaapi.in/api-reference/get-slok)
@@ -31,9 +37,7 @@
 4. GET [/chapter/:ch](https://docs.bhagavadgitaapi.in/api-reference/get-chapter)
 5. GET [/gita.svg](https://docs.bhagavadgitaapi.in/api-reference/get-gita.svg)
 
-## :lock: API key
-
-> A new Authentication Feature :bulb: introduced in our Bhagavad Gita API. [Get your license now for free](https://docs.bhagavadgitaapi.in/pricing).
+[![https://youtu.be/1OVXdkFoKIg](https://i.imgur.com/aAY2ZNO.png)](https://youtu.be/1OVXdkFoKIg)
 
 ## 📚 Source Book
 

@@ -1,7 +1,7 @@
 // import modules of Bhagavad GITA
 const {bgslok, bgchap} = require('../models/bhagavadgita.model');
-const {renderSVG,gitaslokid} = require('../lib/bhagavadgita');		
-const auth = require('../models/auth');
+const {renderSVG, gitaslokid} = require('../libs/bhagavadgita');		
+const auth = require('../libs/auth');
 // Bhagavad Gita 🚀 Api Reference Routes Endpoints
 //1. GET [/slok]
 //2. GET [/slok/:ch/:sl]
@@ -16,8 +16,9 @@ const bhagavadgitaRoutes = (app, fs) => {
 		await bgslok.findById(gitaslokid(), (err, data) => {
             if (!data) {
 				res.status(500).json({ error: 'Internal Server Error'});
-            }
+            } else {
             res.json(data);
+			}
         });
     });	
 	
@@ -26,11 +27,12 @@ const bhagavadgitaRoutes = (app, fs) => {
 		const chapter = req.params.ch;
 		const slok = req.params.sl;
 		if(!isNaN(chapter) && !isNaN(slok)){
-			await bgslok.findById(`BG${chapter}.${slok}`, (err, data) => {
+			await bgslok.findById(gitaslokid(chapter,slok), (err, data) => {
 				if (!data) {
 					res.status(400).json({ error: 'This Chapter or Slok does not exist' });
-				}
+				} else {
 				res.json(data);
+				}
 			});
 		}
 		else{
@@ -43,8 +45,9 @@ const bhagavadgitaRoutes = (app, fs) => {
     	await bgchap.find({},{ '_id': 0,}, (err, data)=> {
             if (!data) {
 				res.status(500).json({ error: 'Internal Server Error'});
-            }
+            } else {
             res.json(data);
+			}
         }).sort({'chapter_number': 1});
     });
 	
@@ -55,8 +58,9 @@ const bhagavadgitaRoutes = (app, fs) => {
 			await bgchap.find({chapter_number: chapter},{ '_id': 0,},(err, data) => {
 				if (!data) {
 					res.status(400).json({ error: 'This Chapter does not exist Try only 1 to 18' });
+				} else {
+					res.json(data[0]);
 				}
-				res.json(data[0]);
 			});
 		}
 		else{
@@ -68,16 +72,20 @@ const bhagavadgitaRoutes = (app, fs) => {
 	app.get('/gita.svg',auth, async (req, res) => {
 		const chapter = req.query.ch;
 		const slok = req.query.sl;
-		if((typeof chapter === 'undefined' && typeof slok  === 'undefined') || (!isNaN(chapter) && typeof slok  === 'undefined') || (!isNaN(chapter) && !isNaN(slok))){
+		if((typeof chapter === 'undefined' && typeof slok  === 'undefined') 
+		|| (!isNaN(chapter) && typeof slok  === 'undefined') 
+		|| (!isNaN(chapter) && !isNaN(slok))){
 			await bgslok.findById(gitaslokid(chapter,slok), (err, data) => {
 				if (!data) {
 					res.status(400).json({ error: 'Chapter or Slok does not exist' });
 				}
+				else {
 				res.set({
 					'Content-Type':'image/svg+xml',
 					'Cache-Control':'public, max-age=600'
 				});
 				res.send(renderSVG(data));
+				}
 			});
 		}
 		else{

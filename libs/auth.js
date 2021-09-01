@@ -14,7 +14,7 @@ module.exports = async (req, res, next) => {
     var token = req.headers["x-api-key"] || req.query["api_key"];
     await user.findById(token, function (err, data){ 
       if(!data){
-        res.status(400).json({ error: 'Invalid api key or given is not provided!' });
+        res.status(401).json({ error: 'Invalid api key or given is not provided!' });
       }
       else {
         var cp = 1000/data.count;// Consume points = 1000/userlimit
@@ -27,7 +27,7 @@ module.exports = async (req, res, next) => {
             });
             next();
           })
-          .catch((rej) => {
+          .catch((rateLimiterRes) => {
             res.set({
                 "X-RateLimit-Limit": data.count,
                 "X-RateLimit-Remaining": rateLimiterRes.remainingPoints/cp,
