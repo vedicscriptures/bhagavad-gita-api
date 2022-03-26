@@ -1,6 +1,7 @@
 # LOCAL DATA
 data/
 # Logs
+log
 logs
 *.log
 npm-debug.log*

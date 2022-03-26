@@ -21,21 +21,19 @@
 
 ## About
 
-> Bhagavad-Gita-API is A lightweight Node.js based Bhagavad Gita API server 
+> Bhagavad-Gita-API is A lightweight Node.js based Bhagavad Gita API server
 
 ## :lock: API key
 
-> A new Authentication Feature :bulb: introduced in our Bhagavad Gita API. [Get your license now for free](https://docs.bhagavadgitaapi.in/pricing).
-
-[![https://youtu.be/UmT9dUUCqm8](https://user-images.githubusercontent.com/26687933/125326463-b69be380-e35f-11eb-9cf9-f8527b7d2bf3.png)](https://youtu.be/UmT9dUUCqm8)
+> Its a public service Bhagavad Gita API, so free to use. No hidden costs, no hidden fees. Free for you to use on your non-monetized app
 
 ## 🚀 Api Reference
 
-1. GET [/slok](https://docs.bhagavadgitaapi.in/api-reference/get-slok)
-2. GET [/slok/:ch/:sl](https://docs.bhagavadgitaapi.in/api-reference/get-slokm)
-3. GET [/chapters](https://docs.bhagavadgitaapi.in/api-reference/get-chapters)
-4. GET [/chapter/:ch](https://docs.bhagavadgitaapi.in/api-reference/get-chapter)
-5. GET [/gita.svg](https://docs.bhagavadgitaapi.in/api-reference/get-gita.svg)
+1. GET [/slok](https://bhagavadgitaapi.in/get-slok)
+2. GET [/slok/:ch/:sl](https://bhagavadgitaapi.in/get-slokm)
+3. GET [/chapters](https://bhagavadgitaapi.in/get-chapters)
+4. GET [/chapter/:ch](https://bhagavadgitaapi.in/get-chapter)
+5. GET [/gita.svg](https://bhagavadgitaapi.in/get-gita.svg)
 
 [![https://youtu.be/1OVXdkFoKIg](https://i.imgur.com/aAY2ZNO.png)](https://youtu.be/1OVXdkFoKIg)
 
@@ -204,17 +202,17 @@
         </td>
     </tr>
 	</tbody>
-</table>    
+</table>
 
 ## Questions and Feedback
 
 **Please contact me using one of the following:**
 
-[![](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ptprashant09) 
-[![](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ptprashanttripathi/) 
-[![](https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ptprashanttripathi/) 
-[![](https://img.shields.io/badge/telegram-%233498DB.svg?&style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ptprashanttripathi/) 
-[![](https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/ptprashanttripathi) 
+[![](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ptprashant09)
+[![](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ptprashanttripathi/)
+[![](https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ptprashanttripathi/)
+[![](https://img.shields.io/badge/telegram-%233498DB.svg?&style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ptprashanttripathi/)
+[![](https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/ptprashanttripathi)
 [![](https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white)](https://dev.to/ptprashanttripathi)
 
 <hr>
