@@ -1,0 +1,10 @@
+<script type="text/javascript">
+    // gitaslokid function
+    function gitaslokid() {
+        const slokcount = [47, 72, 43, 42, 29, 47, 30, 28, 34, 42, 55, 20, 35, 27, 20, 24, 28, 78]
+        const chapter = Math.floor(Math.random() * 17) + 1
+        const slok = Math.floor(Math.random() * slokcount[chapter - 1]) + 1
+        return `${chapter}/${slok}/`
+    }
+    location.assign(gitaslokid());
+</script>

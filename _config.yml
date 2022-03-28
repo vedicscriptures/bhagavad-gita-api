@@ -1,0 +1,70 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+theme: jekyll-theme-slate
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Bhagvad Gita API"
+name                     : &name "ptprashanttripathi" # &name is a YAML anchor which can be *referenced later
+description              : &description "Bhagavad-Gita-API is An opensource lightweight Node.js based rest API on Vedic Scripture Shrimad Bhagavad Gita."
+url                      : https://bhagavadgitaapi.in/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/" # the subpath of your site, e.g. "/blog"
+repository               : "mvedicscriptures/bhagavad-gita-api"
+teaser                   : "https://repository-images.githubusercontent.com/314205765/0bb18d80-2b22-11eb-8f6f-ccf20c0c2679" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "https://repository-images.githubusercontent.com/314205765/0bb18d80-2b22-11eb-8f6f-ccf20c0c2679" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+breadcrumbs              : true #, false (default)
+words_per_minute         : 200
+# Social Sharing
+twitter:
+  username               : &twitter "BhagavadGitaApi"
+facebook:
+  username               : &facebook "ptprashanttripathi"
+og_image                 : "https://repository-images.githubusercontent.com/314205765/0bb18d80-2b22-11eb-8f6f-ccf20c0c2679" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+# For specifying social profiles, used in _includes/seo.html
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - "https://twitter.com/BhagavadGitaApi"
+    - "https://github.com/ptprashanttripathi"
+
+# Site Author
+author:
+  name             : *name # *name is a YAML reference pointing to the &anchor earlier
+  avatar           : "https://avatars.githubusercontent.com/u/26687933?v=4"
+  bio              : "Pt. Prashant tripathi Programmer • Developer • learner @ptprashanttripathi"
+  links:
+    - label: "prashanttripathi.me"
+      icon: "fas fa-fw fa-link"
+      url: "https://prashanttripathi.me"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/PtPrashant09"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ptprashanttripathi"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/ptprashanttripathi"
+
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/BhagavadGitaApi"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/vedicscriptures"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/BhagavadGitaApi"
+
+encoding: "utf-8"
