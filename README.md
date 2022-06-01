@@ -16,7 +16,7 @@
 	<a href="https://paypal.me/PtPrashantTripathi"><img height='23' src="https://img.shields.io/badge/support-PayPal-blue?logo=PayPal&style=flat-square&label=Donate" alt="Donate"/></a>
 	<a href='https://ko-fi.com/ptprashanttripathi' target='_blank'><img height='23' width="100" src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' alt='Buy Coffee for ptprashanttripathi' /></a>
 	<a href="https://www.buymeacoffee.com/ptprashanttripathi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="23" width="100" style="border-radius:1px" /></a>
-	<a href="https://ptprashanttripathi.github.io/linkpe?pa=pt1998@ybl&pn=Pt.+Prashant+Tripathi" target="_blank"><img src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/linkpebadge.svg" alt="Support Via UPI" height="23" style="border-radius:1px" /></a>
+	<a href="https://ptprashanttripathi.github.io/linkpe?pa=pt1997@ybl&pn=Pt.+Prashant+Tripathi" target="_blank"><img src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/linkpebadge.svg" alt="Support Via UPI" height="23" style="border-radius:1px" /></a>
 </p>
 
 ## About
@@ -203,6 +203,31 @@
     </tr>
 	</tbody>
 </table>
+
+## Sponsors 🤴
+
+A special thank you to all our generous sponsors! 
+
+<table>
+  <tbody>
+    <tr>
+      <th align="center">
+        <a href="https://github.com/chaudharyachint08">
+        <sub><b>Achint Chaudhary</b></sub>
+        </a>
+      </th>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/chaudharyachint08">
+        <img src="https://avatars.githubusercontent.com/u/18164072?s=200&v=4" width="100px;" alt="Achint Chaudhary">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [Become a sponsor](/SPONSORS.md#looking-to-sponsor-bhagavad-gita-api)
 
 ## Questions and Feedback
 
