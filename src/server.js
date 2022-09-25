@@ -1,7 +1,7 @@
 // importing required modules
 const express = require('express')
 const mongoose = require('mongoose')
-
+const cors = require('cors')
 // importing environment variables
 require('dotenv').config()
 
@@ -19,6 +19,7 @@ mongoose
 
 // api settings
 const app = express()
+app.use(cors())
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*')
   next()
