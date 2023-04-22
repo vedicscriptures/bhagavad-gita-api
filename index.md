@@ -23,13 +23,6 @@ description: Bhagavad-Gita-API is An opensource lightweight Node.js based rest A
 	<a href="https://ptprashanttripathi.github.io/linkpe?pa=pt1998@ybl&pn=Pt.+Prashant+Tripathi" target="_blank"><img src="https://raw.githubusercontent.com/PtPrashantTripathi/linkpe/main/img/linkpebadge.svg" alt="Support Via UPI" height="23" style="border-radius:1px" /></a>
 </p>
 
-## About
-
-> Bhagavad-Gita-API is A lightweight Node.js based Bhagavad Gita API server
-
-## :lock: API key
-
-> Its a public service Bhagavad Gita API, so free to use. No hidden costs, no hidden fees. Free for you to use on your non-monetized app
 
 ## 🚀 Api Reference
 
@@ -41,52 +34,7 @@ description: Bhagavad-Gita-API is An opensource lightweight Node.js based rest A
 
 [![https://youtu.be/1OVXdkFoKIg](https://i.imgur.com/aAY2ZNO.png)](https://youtu.be/1OVXdkFoKIg)
 
-## 👨‍⚖️ Privacy Policy
 
-[privacy-policy](/privacy-policy)
-
-## 🗒️ Terms & Conditions
-
-[terms-and-conditions](/terms-and-conditions)
-
-## 💻 Built with
-
-![Node.js](https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white)
-![express](https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white)
-![Heroko](https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white)
-
-## 👨‍💻 Developer
-
-<table>
-    <tbody>
-	<tr>
-        <th align="center">
-            <a href="https://github.com/ptprashanttripathi">
-                <sub><b>Pt. Prashant Tripathi</b></sub>
-            </a>
-        </th>
-      </tr>
-     <tr>
-        <td align="center">
-            <a href="https://github.com/ptprashanttripathi">
-                <img src="https://avatars2.githubusercontent.com/u/26687933?s=200&amp;v=4" width="100px;" alt="">
-            </a>
-        </td>
-    </tr>
-	</tbody>
-</table>
-
-## Questions and Feedback
-
-**Please contact me using one of the following:**
-
-[![](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ptprashant09)
-[![](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ptprashanttripathi/)
-[![](https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ptprashanttripathi/)
-[![](https://img.shields.io/badge/telegram-%233498DB.svg?&style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ptprashanttripathi/)
-[![](https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/ptprashanttripathi)
-[![](https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev-dot-to&logoColor=white)](https://dev.to/ptprashanttripathi)
-
+            
 <hr>
 <p align="center">Developed with ❤️ in India 🇮🇳</p>

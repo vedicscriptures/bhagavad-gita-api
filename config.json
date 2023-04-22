@@ -1,0 +1,84 @@
+{
+    "twitter_username": "bhagavadgitaapi",
+    "github_username": "vedicscriptures",
+    "meta": {
+        "keywords": "Bhagavad Gita API,vedic, vedic,script, programming language, sanskrit, ptprashanttripathi, Pt. Prashant Tripathi",
+        "author": "Pt. Prashant Tripathi"
+    },
+    "readme_index": {
+        "with_frontmatter": true
+    },
+    "locale": "en-US",
+    "title": "Bhagvad Gita API",
+    "name": "ptprashanttripathi",
+    "description": "Bhagavad-Gita-API is An opensource lightweight Node.js based rest API on Vedic Scripture Shrimad Bhagavad Gita.",
+    "url": "https://bhagavadgitaapi.in/",
+    "baseurl": "/",
+    "repository": "vedicscriptures/bhagavad-gita-api",
+    "teaser": "https://repository-images.githubusercontent.com/314205765/0bb18d80-2b22-11eb-8f6f-ccf20c0c2679",
+    "logo": "https://repository-images.githubusercontent.com/314205765/0bb18d80-2b22-11eb-8f6f-ccf20c0c2679",
+    "breadcrumbs": true,
+    "words_per_minute": 200,
+    "twitter": {
+        "username": "BhagavadGitaApi"
+    },
+    "facebook": {
+        "username": "ptprashanttripathi"
+    },
+    "og_image": "https://repository-images.githubusercontent.com/314205765/0bb18d80-2b22-11eb-8f6f-ccf20c0c2679",
+    "social": {
+        "type": null,
+        "name": null,
+        "links": [
+            "https://twitter.com/BhagavadGitaApi",
+            "https://github.com/ptprashanttripathi"
+        ]
+    },
+    "author": {
+        "name": "ptprashanttripathi",
+        "avatar": "https://avatars.githubusercontent.com/u/26687933?v=4",
+        "bio": "Pt. Prashant tripathi Programmer \u2022 Developer \u2022 learner @ptprashanttripathi",
+        "links": [
+            {
+                "label": "prashanttripathi.me",
+                "icon": "fas fa-fw fa-link",
+                "url": "https://ptprashanttripathi.github.io"
+            },
+            {
+                "label": "Twitter",
+                "icon": "fab fa-fw fa-twitter-square",
+                "url": "https://twitter.com/PtPrashant09"
+            },
+            {
+                "label": "GitHub",
+                "icon": "fab fa-fw fa-github",
+                "url": "https://github.com/ptprashanttripathi"
+            },
+            {
+                "label": "Instagram",
+                "icon": "fab fa-fw fa-instagram",
+                "url": "https://instagram.com/ptprashanttripathi"
+            }
+        ]
+    },
+    "footer": {
+        "links": [
+            {
+                "label": "Twitter",
+                "icon": "fab fa-fw fa-twitter-square",
+                "url": "https://twitter.com/BhagavadGitaApi"
+            },
+            {
+                "label": "GitHub",
+                "icon": "fab fa-fw fa-github",
+                "url": "https://github.com/vedicscriptures"
+            },
+            {
+                "label": "Instagram",
+                "icon": "fab fa-fw fa-instagram",
+                "url": "https://instagram.com/BhagavadGitaApi"
+            }
+        ]
+    },
+    "encoding": "utf-8"
+}
