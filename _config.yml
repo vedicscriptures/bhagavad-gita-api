@@ -4,17 +4,21 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
-
-theme: jekyll-theme-slate
-
-# Site Settings
+# Site settings
+twitter_username: bhagavadgitaapi
+github_username:  vedicscriptures
+meta:
+  keywords: Bhagavad Gita API,vedic, vedic,script, programming language, sanskrit, ptprashanttripathi, Pt. Prashant Tripathi
+  author: Pt. Prashant Tripathi
+readme_index:
+  with_frontmatter: true
 locale                   : "en-US"
 title                    : "Bhagvad Gita API"
 name                     : &name "ptprashanttripathi" # &name is a YAML anchor which can be *referenced later
 description              : &description "Bhagavad-Gita-API is An opensource lightweight Node.js based rest API on Vedic Scripture Shrimad Bhagavad Gita."
 url                      : https://bhagavadgitaapi.in/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
-repository               : "mvedicscriptures/bhagavad-gita-api"
+repository               : "vedicscriptures/bhagavad-gita-api"
 teaser                   : "https://repository-images.githubusercontent.com/314205765/0bb18d80-2b22-11eb-8f6f-ccf20c0c2679" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "https://repository-images.githubusercontent.com/314205765/0bb18d80-2b22-11eb-8f6f-ccf20c0c2679" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 breadcrumbs              : true #, false (default)
@@ -42,7 +46,7 @@ author:
   links:
     - label: "prashanttripathi.me"
       icon: "fas fa-fw fa-link"
-      url: "https://prashanttripathi.me"
+      url: "https://ptprashanttripathi.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/PtPrashant09"
