@@ -1,0 +1,29 @@
+# This is a basic workflow to help you get started with Actions
+name: PanditBOT
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+      - name: Library installation
+        run: |
+          find ./slok -name 'gita.svg' -type f -delete
+          find ./slok -name 'gita.svg' -type f 
+          echo "Done"
+      - name: Updating JSON
+        run: python repo.py
+      - name: Git push
+        run: |
+          git config user.name PtPrashantTripathi
+          git config user.email ptprashanttripathi@outlook.com
+          git add .
+          git commit -m "[PanditBot] Updating Repos Data $(date +%Y-%m-%d_%H-%M-%S)"
+          git push --quiet
