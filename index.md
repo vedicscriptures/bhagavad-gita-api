@@ -7,9 +7,9 @@ description: Bhagavad-Gita-API is An opensource lightweight Node.js based rest A
 
 ## 🚀 Api Reference
 
-1. GET [/slok/:ch/:sl](#get-slokm)
+1. GET [/slok/:ch/:sl](#get-slokchsl)
 2. GET [/chapters](#get-chapters)
-3. GET [/chapter/:ch](#get-chapter)
+3. GET [/chapter/:ch](#get-chapterch)
             
 
 
