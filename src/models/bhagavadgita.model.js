@@ -29,7 +29,8 @@ const bgslokSchema = new Schema({
   dhan: Object,
   venkat: Object,
   puru: Object,
-  neel: Object
+  neel: Object,
+  prabhu:Object
 })
 
 // bhagavad gita chapter Schema
