@@ -25,6 +25,7 @@ for source_path in json_files:
         # Write the JSON content to the target file
         with open(target_path, "w", encoding="utf-8") as fp:
             json.dump(data, fp, ensure_ascii=False, indent=4)
+            fp.write("\n")
 
     except Exception as e:
         print(chapter, slok)
