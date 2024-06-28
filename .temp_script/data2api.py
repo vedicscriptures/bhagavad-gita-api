@@ -28,13 +28,14 @@ for source_path in json_files:
         if prabhu:
             data["prabhu"] = prabhu
             # Write the JSON content to the target file
-            with open(target_path, "w", encoding="utf-8") as target_file:
+            with open(target_path, "w", encoding="utf-8") as fp:
                 json.dump(
                     data,
-                    target_file,
+                    fp,
                     ensure_ascii=False,
                     indent=4,
                 )
+                fp.write("\n")
         else:
             raise Exception("comentry not found : " + str(source_path))
 
