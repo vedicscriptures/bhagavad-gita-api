@@ -1,62 +1,62 @@
 {
-  "name": "bhagavad-gita-api",
-  "version": "3.3.0",
-  "description": "A lightweight Node-based Bhagavad Gita API server",
-  "author": "Pt. Prashant Tripathi",
-  "license": "GNU",
-  "homepage": "https://bhagavadgitaapi.in",
-  "main": "server.js",
-  "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
-    "test": "mocha tests/*.js",
-    "lint": "eslint --fix \"{,!(node_modules)/**/}*.{js,jsx}\"",
-    "prettier": "prettier --write \"{,!(node_modules)/**/}*.{js,json}\"",
-    "format": "npm run prettier && npm lint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vedicscriptures/bhagavadgitaapi.git"
-  },
-  "keywords": [
-    "gita-api",
-    "bhagavad-gita-api",
-    "bhagavad-gita",
-    "karma-yoga",
-    "api",
-    "hinduism",
-    "hindu",
-    "sanatadharma",
-    "vedic",
-    "krishna",
-    "iskcon",
-    "api-rest"
-  ],
-  "bugs": {
-    "url": "https://github.com/vedicscriptures/bhagavad-gita-api/issues"
-  },
-  "dependencies": {
-    "body-parser": "1.20.2",
-    "dotenv": "16.0.0",
-    "express": "4.19.2",
-    "mongoose": "5.13.20",
-    "rate-limiter-flexible": "2.3.6",
-    "redis": "4.0.3"
-  },
-  "devDependencies": {
-    "chai": "^4.3.6",
-    "chai-http": "^4.3.0",
-    "eslint": "^7.32.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.2.0",
-    "mocha": "^9.2.2",
-    "nodemon": "2.0.22",
-    "prettier": "2.6.1"
-  },
-  "engines": {
-    "node": "12.x",
-    "npm": "7.x"
-  }
+    "name": "bhagavad-gita-api",
+    "version": "3.3.0",
+    "description": "A lightweight Node-based Bhagavad Gita API server",
+    "author": "Pt. Prashant Tripathi",
+    "license": "GNU",
+    "homepage": "https://bhagavadgitaapi.in",
+    "main": "server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js",
+        "test": "mocha tests/*.js",
+        "lint": "eslint --fix \"{,!(node_modules)/**/}*.{js,jsx}\"",
+        "prettier": "prettier --write \"{,!(node_modules)/**/}*.{js,json}\"",
+        "format": "npm run prettier && npm lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vedicscriptures/bhagavadgitaapi.git"
+    },
+    "keywords": [
+        "gita-api",
+        "bhagavad-gita-api",
+        "bhagavad-gita",
+        "karma-yoga",
+        "api",
+        "hinduism",
+        "hindu",
+        "sanatadharma",
+        "vedic",
+        "krishna",
+        "iskcon",
+        "api-rest"
+    ],
+    "bugs": {
+        "url": "https://github.com/vedicscriptures/bhagavad-gita-api/issues"
+    },
+    "dependencies": {
+        "body-parser": "1.20.2",
+        "dotenv": "16.0.0",
+        "express": "4.19.2",
+        "mongoose": "5.13.20",
+        "rate-limiter-flexible": "2.3.6",
+        "redis": "4.0.3"
+    },
+    "devDependencies": {
+        "chai": "^4.3.6",
+        "chai-http": "^4.3.0",
+        "eslint": "^7.32.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-import": "^2.25.4",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.2.0",
+        "mocha": "^9.2.2",
+        "nodemon": "2.0.22",
+        "prettier": "2.6.1"
+    },
+    "engines": {
+        "node": "12.x",
+        "npm": "7.x"
+    }
 }
