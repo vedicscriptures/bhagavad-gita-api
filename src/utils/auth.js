@@ -60,7 +60,7 @@ const auth = async (req, res, next) => {
     res.status(401).json({
       error: 'Invalid api key or given is not provided!',
       message:
-        'Read the documentation about authentication at https://docs.bhagavadgitaapi.in/api-reference/authentication'
+        'Read the documentation about authentication at https://vedicscriptures.github.io/api-reference/authentication'
     })
   }
 }

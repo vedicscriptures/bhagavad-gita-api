@@ -1,9 +1,9 @@
 // import modules
 const auth = require('../utils/auth')
 module.exports = app => {
-  // default route to docs(https://docs.bhagavadgitaapi.in/)
+  // default route to docs(https://vedicscriptures.github.io/)
   app.get('/', (req, res) => {
-    res.redirect('https://docs.bhagavadgitaapi.in/')
+    res.redirect('https://vedicscriptures.github.io/')
   })
 
   // Bhagavad Gita 🚀 Api Reference Routes Endpoints
@@ -28,7 +28,7 @@ module.exports = app => {
     res.status(404).json({
       error: 'Invalid API endpoint',
       message:
-        'Read the documentation at https://docs.bhagavadgitaapi.in/#api-reference'
+        'Read the documentation at https://vedicscriptures.github.io/#api-reference'
     })
   })
 }

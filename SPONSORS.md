@@ -1,6 +1,6 @@
 # Sponsors
 
-We'd like to thank all of our generous sponsors that make [**Bhagavad Gita Api**](https://bhagavadgitaapi.in/) possible throughout the years.
+We'd like to thank all of our generous sponsors that make [**Bhagavad Gita Api**](https://vedicscriptures.github.io/) possible throughout the years.
 
 A special thank you to the following sponsors for their considerable contributions:
 
@@ -23,7 +23,7 @@ A special thank you to the following sponsors for their considerable contributio
   </tbody>
 </table>
 
-## Looking to sponsor [Bhagavad Gita Api](https://bhagavadgitaapi.in/)?
+## Looking to sponsor [Bhagavad Gita Api](https://vedicscriptures.github.io/)?
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
 
