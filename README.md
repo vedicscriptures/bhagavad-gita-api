@@ -29,11 +29,10 @@
 
 ## 🚀 Api Reference
 
-1. GET [/slok](https://vedicscriptures.github.io/get-slok)
-2. GET [/slok/:ch/:sl](https://vedicscriptures.github.io/get-slokm)
-3. GET [/chapters](https://vedicscriptures.github.io/get-chapters)
-4. GET [/chapter/:ch](https://vedicscriptures.github.io/get-chapter)
-5. GET [/gita.svg](https://vedicscriptures.github.io/get-gita.svg)
+1. GET [/slok/:ch/:sl](https://vedicscriptures.github.io/#get-slokchsl)
+2. GET [/chapters](https://vedicscriptures.github.io/#get-chapters)
+3. GET [/chapter/:ch](https://vedicscriptures.github.io/#get-chapterch)
+
 
 [![https://youtu.be/1OVXdkFoKIg](https://i.imgur.com/aAY2ZNO.png)](https://youtu.be/1OVXdkFoKIg)
 
