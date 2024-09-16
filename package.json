@@ -36,7 +36,7 @@
         "url": "https://github.com/vedicscriptures/bhagavad-gita-api/issues"
     },
     "dependencies": {
-        "body-parser": "1.20.2",
+        "body-parser": "1.20.3",
         "dotenv": "16.0.0",
         "express": "4.21.0",
         "mongoose": "5.13.20",
