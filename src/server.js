@@ -1,6 +1,7 @@
 // importing required modules
 const express = require('express')
 const mongoose = require('mongoose')
+const RateLimit = require('express-rate-limit');
 
 // importing environment variables
 require('dotenv').config()
@@ -26,6 +27,14 @@ app.use((req, res, next) => {
 app.set('trust proxy', 1)
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+// set up rate limiter: maximum of five requests per minute
+var limiter = RateLimit({
+  windowMs: 1*60*1000, // 1 minute
+  max: 5
+});
+
+// apply rate limiter to all requests
+app.use(limiter);
 
 // import routes
 require('./routes')(app)
